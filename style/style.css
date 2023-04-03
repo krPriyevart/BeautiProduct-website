@@ -1,0 +1,522 @@
+body{
+    padding:0;
+    margin:0;
+    background-image:url(../images/bg.jpg);
+   background-color:aqua;
+    background-size: 100% 1000px;
+    background-attachment: fixed;
+}
+/* start nav coding */
+nav{
+    width:100%;
+    height:250px;
+    background-color:rgba(0,0,0,0.8);
+    float:left;
+    box-sizing: border-box;
+    padding: 50px;
+}
+#welcome-text{
+    color:white;
+    font-size: 80px;
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+#navbar{
+    width:900px;
+    height:70px;
+    box-sizing: border-box;
+    margin-top:20px;
+}
+#navbar tr td{
+    width:20%;
+    border-width:1px;
+    border-color:#ccc;
+    border-style:solid;
+    text-align: center;
+
+}
+#navbar tr td a{
+    color:white;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-decoration:none;
+}
+/* end nav coding */
+
+/* start section homepage coding */
+section{
+    width:1000px;
+    height:719px;
+    background-image: url(../images/section-bg.png);
+    float: right;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:80px;
+   
+}
+#logo{
+    width:230px;
+    height:230px;
+    border-width: 10px;
+    border-color:white;
+    border-style:solid;
+    padding-bottom: 230px;
+    box-sizing: border-box;
+    margin-top: 00px;
+    margin-left: 200px;
+}
+#logo-text{
+    padding:0;
+    margin:0;
+    text-align: center;
+    color:white;
+    font-size: 180px;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+#beauty-products{
+    color:white;
+    font-size:60px;
+    font-family: poppins;
+    margin-left: -220px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#domin-name{
+    color:white;
+    font-size: 60px;
+    margin:0;
+    margin-left:-200px;
+    margin-top:50px;
+    padding:0;
+    font-family:verdana;
+    font-weight: bold;
+}
+/* end section homepage coding */
+
+/* start section login coding */
+#domain-name-login{
+    color:white;
+    font-size:60px;
+    font-family:poppins;
+    font-weight: bold;
+    padding:0;
+    margin:0;
+    text-align:center;
+    
+}
+#login-fieldset{
+    width:480px;
+    height:500px;
+    float:left;
+    border-width:2px;
+    border-color:#ccc;
+    border-style:solid;
+    box-sizing: border-box;
+    margin-left:350px;
+    margin-top:0px;
+    padding-left: 20px;
+}
+#login-legend{
+    color:#ccc;
+    font-size:25px;
+    font-family:verdana;
+    
+}
+#login-form{
+    color:#ccc;
+    font-family:verdana;
+    font-size: 20px;
+}
+#username{
+    width:400px;
+    height:50px;
+    margin-top:5px;
+    box-sizing: border-box;
+    background-color: inherit;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;
+    color:white;
+    font-size: 22px;
+    font-family: sans-serif;    
+    padding-left: 5px;
+    letter-spacing: 1px;
+}
+#password{
+    width:400px;
+    height:50px;
+    margin-top:5px;
+    box-sizing: border-box;
+    background-color: inherit;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;
+    color:white;
+    font-size: 22px;
+    font-family: sans-serif;    
+    padding-left: 5px;
+}
+
+#login{
+    width:130px;
+    height:55px;
+    float: right;
+    color:white;
+    margin-top:60px;
+    margin-right: 10px;
+    border-color:#ccc;
+    border-style:solid;
+    border-width:1px;
+    font-size:18px;
+    box-sizing: border-box;
+    background-color:inherit;
+}
+
+/* end section login coding */ 
+/* contact coding */
+#contact{
+    color:#ccc;
+    font-size:27px;
+    line-height: 60px;
+}
+#contact-fieldset{
+    width:480px;
+    height:400px;
+    float:left;
+    border-width:2px;
+    border-color:#ccc;
+    border-style:solid;
+    box-sizing: border-box;
+    margin-left:350px;
+    margin-top:0px;
+    padding-left: 20px;
+}
+/* end contact coding */
+/* start product section coding */
+
+#product-section{
+    width:100%;
+    height:477px;
+    float:left;
+    box-sizing: border-box;
+    background-color:rgba(255,255,255,0.8)
+}
+#brand-header-section{
+    text-align:center;
+    font-family: verdana;
+}
+#brand-pic{
+    width:200px;
+    height:80px;
+    float: left;
+    border-width:3px;
+    border-style:solid;
+    border-color:black;
+    background-color:white;
+    margin-left:150px;  
+    margin-top:30px;
+}
+#brand-pic img{
+    width:200px;
+    height:80px;
+}
+#search-box{
+    width:60%;
+    height:60px;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:100px;
+    border-width:2px;
+    border-color:#ccc;
+    border-style:solid;
+    font-size:17px;
+    padding-left:10px;
+    box-sizing: border-box;
+    font-family:verdana;
+    background-image: url(../images/search.png);
+    background-size:50px 50px;
+    background-position:right;
+    background-repeat: no-repeat;
+}
+#garnier{
+    width:100%;
+    height:500px;
+    float: left;
+    background-color:rgba(0,0,0,0.8);
+    box-sizing: border-box;
+}
+#garnier-header{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    font-family: baloo,sans-serif,verdana;
+}
+
+#garnier-goods{
+    width:250px;
+    height:350px;
+    float: left;
+    box-sizing: border-box;
+    margin-left:185px;
+    border-width: 3px;
+    border-color:white;
+    border-style:solid;
+}
+#garnier-goods img{
+    width:247px;
+}
+#garnier-text{
+    color:white;
+    font-family: verdana;
+    text-align:center;
+    font-size:20px; 
+    margin: 0;
+    padding:0;
+    margin-top:5px
+}
+#garnier-price{
+    color:white;
+    font-size:23px;
+    float:left;
+    margin-left:25px;
+    margin-top:7px;
+}
+#garnier-buy{
+    color:white;
+    float: right;
+    font-size: 25px;
+    margin-right:18px;
+    margin-top: 5px;
+}
+
+#dove{
+    width:100%;
+    height:500px;
+    float: left;
+    background-color:rgba(0,0,0,0.8);
+    box-sizing: border-box;
+}
+#dove-header{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    font-family: baloo,sans-serif,verdana;
+}
+
+#dove-goods{
+    width:250px;
+    height:350px;
+    float: left;
+    box-sizing: border-box;
+    margin-left:185px;
+    border-width: 3px;
+    border-color:white;
+    border-style:solid;
+}
+#dove-goods img{
+    width:247px;
+}
+#dove-text{
+    color:white;
+    font-family: verdana;
+    text-align:center;
+    font-size:20px; 
+    margin: 0;
+    padding:0;
+    margin-top:5px
+}
+#dove-price{
+    color:white;
+    font-size:23px;
+    float:left;
+    margin-left:25px;
+    margin-top:7px;
+}
+#dove-buy{
+    color:white;
+    float: right;
+    font-size: 25px;
+    margin-right:18px;
+    margin-top: 5px;
+}
+
+#zest{
+    width:100%;
+    height:500px;
+    float: left;
+    background-color:rgba(0,0,0,0.8);
+    box-sizing: border-box;
+}
+#zest-header{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    font-family: baloo,sans-serif,verdana;
+}
+
+#zest-goods{
+    width:250px;
+    height:350px;
+    float: left;
+    box-sizing: border-box;
+    margin-left:185px;
+    border-width: 3px;
+    border-color:white;
+    border-style:solid;
+}
+#Zest-goods img{
+    width:247px;
+}
+#Zest-text{
+    color:white;
+    font-family: verdana;
+    text-align:center;
+    font-size:20px; 
+    margin: 0;
+    padding:0;
+    margin-top:5px
+}
+#Zest-price{
+    color:white;
+    font-size:23px;
+    float:left;
+    margin-left:25px;
+    margin-top:7px;
+}
+#Zest-buy{
+    color:white;
+    float: right;
+    font-size: 25px;
+    margin-right:18px;
+    margin-top: 5px;
+}
+
+#aveda{
+    width:100%;
+    height:500px;
+    float: left;
+    background-color:rgba(0,0,0,0.8);
+    box-sizing: border-box;
+}
+#aveda-header{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    font-family: baloo,sans-serif,verdana;
+}
+
+#aveda-goods{
+    width:250px;
+    height:350px;
+    float: left;
+    box-sizing: border-box;
+    margin-left:185px;
+    border-width: 3px;
+    border-color:white;
+    border-style:solid;
+}
+#aveda-goods img{
+    width:247px;
+}
+#aveda-text{
+    color:white;
+    font-family: verdana;
+    text-align:center;
+    font-size:20px; 
+    margin: 0;
+    padding:0;
+    margin-top:5px
+}
+#aveda-price{
+    color:white;
+    font-size:23px;
+    float:left;
+    margin-left:25px;
+    margin-top:7px;
+}
+#aveda-buy{
+    color:white;
+    float: right;
+    font-size: 25px;
+    margin-right:18px;
+    margin-top: 5px;
+}
+
+#himalaya{
+    width:100%;
+    height:500px;
+    float: left;
+    background-color:rgba(0,0,0,0.8);
+    box-sizing: border-box;
+}
+#himalaya-header{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    font-family: baloo,sans-serif,verdana;
+}
+
+#himalaya-goods{
+    width:250px;
+    height:350px;
+    float: left;
+    box-sizing: border-box;
+    margin-left:185px;
+    border-width: 3px;
+    border-color:white;
+    border-style:solid;
+}
+#himalaya-goods img{
+    width:247px;
+}
+#himalaya-text{
+    color:white;
+    font-family: verdana;
+    text-align:center;
+    font-size:20px; 
+    margin: 0;
+    padding:0;
+    margin-top:5px
+}
+#himalaya-price{
+    color:white;
+    font-size:23px;
+    float:left;
+    margin-left:25px;
+    margin-top:7px;
+}
+#himalaya-buy{
+    color:white;
+    float: right;
+    font-size: 25px;
+    margin-right:18px;
+    margin-top: 5px;
+}
+
+
+
+/* end product section coding */
+/* start footer coding */
+footer{
+    width:100%;
+    height:50px;
+    background-color: rgba(255,255,255,0.8);
+    float:left;
+    box-sizing: border-box;
+    
+}
+footer p{
+    text-align:center;
+    font-family:verdana;
+    margin:0;
+    padding:0;
+    margin-top:15px; 
+    
+}
+
+
+/*end footer coding */
